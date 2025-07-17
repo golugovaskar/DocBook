@@ -90,7 +90,6 @@ const Appointment = () => {
         if (!token) {
             toast.warning('Login to book appointment')
             return navigate('/login')
-        }
 
         const date = docSlots[slotIndex][0].datetime
 
@@ -184,6 +183,7 @@ const Appointment = () => {
             <RelatedDoctors speciality={docInfo.speciality} docId={docId} />
         </div>
     ) : null
+    }
 }
 
 export default Appointment
