@@ -140,7 +140,7 @@ const Navbar = () => {
         <li><NavLink to='/contact' className={linkClass}>CONTACT</NavLink></li>
         <li>
           <a
-  href='/https://docbook-admin-67ok.onrender.com'
+  href='https://docbook-admin-67ok.onrender.com'
   target='_blank'
   rel='noopener noreferrer'
   className='px-3 py-1.5 border-2 border-black rounded-full text-xs transition duration-200 ml-4
@@ -230,7 +230,7 @@ const Navbar = () => {
             CONTACT
           </NavLink>
           <a
-  href='/https://docbook-admin-67ok.onrender.com'
+  href='https://docbook-admin-67ok.onrender.com'
   target='_blank'
   rel='noopener noreferrer'
   className='px-3 py-1.5 border-2 border-black rounded-full text-xs hover:bg-primary hover:text-white transition duration-200 ml-4'
