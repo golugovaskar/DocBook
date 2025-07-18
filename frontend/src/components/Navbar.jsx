@@ -32,7 +32,7 @@ const Navbar = () => {
 
       {/* Desktop Links */}
       <ul className='md:flex items-center gap-5 font-medium hidden'>
-        <li><NavLink to='/' className={linkClass}>HOMEI</NavLink></li>
+        <li><NavLink to='/' className={linkClass}>HOME</NavLink></li>
         <li><NavLink to='/doctors' className={linkClass}>ALL DOCTORS</NavLink></li>
         <li><NavLink to='/about' className={linkClass}>ABOUT</NavLink></li>
         <li><NavLink to='/contact' className={linkClass}>CONTACT</NavLink></li>
