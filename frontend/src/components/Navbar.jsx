@@ -105,7 +105,13 @@ const Navbar = () => {
         }`}
       >
         <div className='flex justify-between items-center mb-6'>
-          <img src={assets.logo} className='w-36' alt='DocBook Logo' />
+          <div
+        onClick={() => navigate('/')}
+        className='flex items-center gap-2 cursor-pointer w-44'
+      >
+        <span className='text-primary text-5xl font-bold'>+</span>
+        <h2 className='text-primary text-2xl font-bold'>DocBook</h4>
+      </div>
           <img
             onClick={() => setShowMenu(false)}
             src={assets.cross_icon}
