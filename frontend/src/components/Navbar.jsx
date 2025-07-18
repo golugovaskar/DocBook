@@ -110,7 +110,7 @@ const Navbar = () => {
         className='flex items-center gap-2 cursor-pointer w-44'
       >
         <span className='text-primary text-5xl font-bold'>+</span>
-        <h2 className='text-primary text-2xl font-bold'>DocBook</h4>
+        <h4 className='text-primary text-2xl font-bold'>DocBook</h4>
       </div>
           <img
             onClick={() => setShowMenu(false)}
